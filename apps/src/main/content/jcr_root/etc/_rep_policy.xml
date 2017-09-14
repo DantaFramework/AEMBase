@@ -5,8 +5,4 @@
         jcr:primaryType="rep:GrantACE"
         rep:principalName="danta-config-service"
         rep:privileges="{Name}[jcr:read]"/>
-    <allow0
-            jcr:primaryType="rep:GrantACE"
-            rep:principalName="danta-jcrsyncr-service"
-            rep:privileges="{Name}[jcr:versionManagement,jcr:read,rep:write,jcr:lockManagement]"/>
 </jcr:root>
