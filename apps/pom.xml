@@ -115,8 +115,8 @@
                             <failOnError>true</failOnError>
                             <failOnMissingEmbed>true</failOnMissingEmbed>
                         </configuration>
-                     </plugin>
-                 </plugins>
+                    </plugin>
+                </plugins>
             </build>
         </profile>
         <profile>
@@ -142,8 +142,8 @@
                             <failOnError>true</failOnError>
                             <failOnMissingEmbed>true</failOnMissingEmbed>
                         </configuration>
-                     </plugin>
-                 </plugins>
+                    </plugin>
+                </plugins>
             </build>
         </profile>
     </profiles>
