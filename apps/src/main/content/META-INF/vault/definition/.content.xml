@@ -46,5 +46,9 @@
             mode="replace"
             root="/home/users/system/danta"
             rules="[]"/>
+        <f6 jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/designs/rep:policy"
+            rules="[]"/>
     </filter>
 </jcr:root>

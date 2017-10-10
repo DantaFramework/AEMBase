@@ -5,6 +5,7 @@
     <filter root="/conf/rep:policy"/>
     <filter root="/content/rep:policy"/>
     <filter root="/etc/rep:policy"/>
+    <filter root="/etc/designs/rep:policy"/>
     <filter root="/home/users/system/danta"/>
     <filter root="/home/users/rep:policy"/>
 </workspaceFilter>
