@@ -15,7 +15,7 @@ pipeline:
     secrets: [m2_settings]
     commands:
       - echo $M2_SETTINGS > $HOME/.m2/settings.xml
-      - mvn clean install -f apps/pom.xml -B -Pdeploy-zip-nexus -Dmaven.repo.local=./m2
+      - mvn clean install -f apps/pom.xml -B -Pwith-sources,with-javadoc,deploy-zip-nexus -Dmaven.repo.local=./m2
     when:
       branch: master
       event: push
@@ -25,7 +25,7 @@ pipeline:
     secrets: [m2_settings]
     commands:
       - echo $M2_SETTINGS > $HOME/.m2/settings.xml
-      - mvn clean install -f apps/pom.xml -B -Pdeploy-zip-nexus-release -Dmaven.repo.local=./m2
+      - mvn clean install -f apps/pom.xml -B -Pwith-sources,with-javadoc,deploy-zip-nexus-release -Dmaven.repo.local=./m2
     when:
       branch: [release/*]
       event: deployment
