@@ -3,5 +3,5 @@
     jcr:primaryType="nt:unstructured"
     xk_clientAccessible="{Boolean}false"
     xk_clientModelProperties="[]"
-    xk_componentCategory="[page,htmlpage,styling,component,content,global,design]"
+    xk_componentCategory="[page,htmlpage,styling,component,content,global,design,structureResources]"
     xk_containerClasses="[xk-page,xk-component]"/>
