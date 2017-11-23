@@ -1,1 +1,3 @@
-{%include "root" resourceType="wcm/foundation/components/responsivegrid"%}
+{%#each content.structureResources%}
+    {%include this.path resourceType=this.type%}
+{%/each%}
