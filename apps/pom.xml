@@ -19,12 +19,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>Danta</groupId>
-        <artifactId>DantaAEMBase</artifactId>
+        <groupId>io.tikaltechnologies.danta</groupId>
+        <artifactId>aem-base</artifactId>
         <version>1.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>DantaAEMBaseApps</artifactId>
+    <artifactId>aem-base-apps</artifactId>
     <packaging>content-package</packaging>
     <name>Danta AEM Base - Apps</name>
     <description>UI apps package for Danta AEM Base</description>
